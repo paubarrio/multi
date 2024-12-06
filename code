@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split-Screen Search</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .section {
+            border: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .gcse-search {
+            width: 90%;
+        }
+    </style>
+    <script async src="https://cse.google.com/cse.js?cx=84af71d217474480c"></script>
+</head>
+<body>
+    <div class="section">
+        <div class="gcse-search"></div>
+    </div>
+    <div class="section">
+        <div class="gcse-search"></div>
+    </div>
+    <div class="section">
+        <div class="gcse-search"></div>
+    </div>
+    <div class="section">
+        <div class="gcse-search"></div>
+    </div>
+</body>
+</html>
